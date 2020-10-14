@@ -60,7 +60,7 @@ def show(_=None):
 def show_one(content=None):
     content = get_question(content)
     if question_and_answers.get(content) is not None:
-        return "```" + content + " : " + ', ' + str(question_and_answers.get(content)) + "```"
+        return "```" + content + " : " + str(question_and_answers.get(content)) + "```"
     return "```No question like that.```"
 
 
