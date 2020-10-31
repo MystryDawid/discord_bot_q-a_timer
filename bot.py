@@ -25,7 +25,7 @@ def if_admin(autor=None):
 
 
 def get_question(content=None):
-    return content.lower()[:-1].translate({ord(i): None for i in '.?!'})
+    return content.lower()[:-1].translate({ord(i): None for i in '.?!'}).rstrip()
 
 
 def to_file(question, answers):
