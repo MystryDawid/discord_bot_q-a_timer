@@ -1,7 +1,7 @@
 # discord_bot_q-a_timer
 
-add_qanda question [answer;:answer] - adding question \n
-add_answers_qanda existing_question [answer;:answer] - adding an answer to an existing question 
+add_qanda question [answer;:answer] - adding question <br>
+add_answers_qanda existing_question [answer;:answer] - adding an answer to an existing question  <br>
 del_answers_qanda existing_question [answer;:answer] - deleting answers to an existing question 
 delete_qanda question - removing the question show_one_qanda question - showing a question 
 show_qanda - showing all questions
