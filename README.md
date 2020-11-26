@@ -11,4 +11,7 @@
 **show_timer** - lists all notifications with their next appearance date   <br>
 **del_timer index_of_timer** - deletes the given reminder admin_help - this  <br>
   <br>  <br>
-The bot does not consider punctuation marks, to change that, change line 28 in bot to ```python return content.lower() ```  <br>
+The bot does not consider punctuation marks, to change that, change line 28 in bot to 
+```python 
+return content.lower()
+```
